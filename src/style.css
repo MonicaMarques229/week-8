@@ -1,6 +1,6 @@
 .weather-app {
   padding: 20px;
-  border: 1px solid #dadde1;
+  border: 1px solid #c5b6d6;
   border-radius: 5px;
 }
 
@@ -12,7 +12,7 @@
 }
 
 h1 {
-  color: #878787;
+  color: #92719c;
   font-size: 24px;
   font-weight: 100;
   line-height: 28px;
@@ -49,6 +49,7 @@ li {
   font-weight: 400;
   font-size: 64px;
   line-height: 1;
+  color: rgb(146, 100, 162);
 }
 .weather-temperature .units {
   position: relative;
@@ -71,14 +72,36 @@ a {
 
 .weather-forecast-date {
   font-size: 16px;
-  color: rgb(40, 39, 39);
-  opacity: 0.6;
+  color: rgb(146, 100, 162);
+  opacity: 0.7;
 }
 
 .weather-forecast-temperatures {
   font-size: 13px;
+  color: rgb(35, 109, 71);
 }
 
 .weather-forecast-temperature-min {
   opacity: 0.5;
+  color: rgb(146, 100, 162);
+}
+
+.bio {
+  color: rgb(146, 100, 162);
+}
+
+.btn {
+  background-color: rgb(185, 167, 192);
+  color: rgb(255, 255, 255);
+  border: #92719c;
+}
+
+.btn-primary:hover {
+  background-color: rgb(205, 202, 207);
+  color: rgb(185, 167, 192);
+  border: #92719c;
+}
+
+.links {
+  color: rgb(76, 133, 187);
 }
